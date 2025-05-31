@@ -1,0 +1,240 @@
+
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-image: radial-gradient(white ,yellow);
+    cursor:progress;
+}
+.img{
+    background-image: url("food\ logo.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    background-position: center;
+    margin-left: 39px;
+    border: 2px solid black;
+    outline: 2px solid white;
+}
+
+header i{
+    margin-right: 39px;
+
+}
+main{
+    margin: 25px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+   
+
+}
+
+.img2{
+    background-image: url("badi\ thali.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    margin-left: 500px;
+    box-shadow: 1px 2px 3px yellow;
+    border: 2px solid black;
+    outline: 2px solid white;
+    
+    
+}
+.img2:hover{
+    animation: anim 2.5s ease-in 1s 1  normal ;
+}
+
+@keyframes anim{
+    from{
+       transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+        
+    }
+}
+
+.word{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+    /* height: 70px; */
+    width: 70px;
+    margin-left: 100px;
+    
+}
+
+.word .pr{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    width: 400px;
+
+}
+
+
+button{
+   
+    text-transform: capitalize;
+    background-color: rgb(221, 184, 18);
+    margin-top: 15px;
+    border: 1px solid rgb(16, 14, 14);
+    outline-color: white;
+    outline-width: 5px;
+    outline-style: solid;
+    width: 130px;
+    
+    cursor: grab;
+    font-size: 16px;
+
+
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: grey;
+    height: 60px;
+}
+
+.icons div{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+
+}
+
+.f-m{
+    margin-left: 350px;
+    margin-top: 35px;
+    margin-right: 350px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.img3{
+    background-image: url("maggie.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:150px;
+    height: 150px;
+    border: 1.5px solid black;
+    margin-bottom: 0;
+}
+.img3:hover{
+    animation: anim1 2.5s ease-in 1s 1  normal ;
+}
+
+@keyframes anim1{
+    from{
+       transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+        
+    }
+}
+
+.f {
+    text-transform: capitalize;
+    font-size:17px;
+    font-weight: 800;
+    margin-left: 18px;
+
+}
+.img4{
+    background-image: url("meet-taki.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:150px;
+    height: 150px;
+    border: 1.5px solid black;
+    margin-bottom: 0;
+}
+.img4:hover{
+    animation: anim2 2.5s ease-in 1s 1  normal ;
+}
+
+@keyframes anim2{
+    from{
+       transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+        
+    }
+}
+
+.f1 {
+    text-transform: capitalize;
+    font-size:17px;
+    font-weight: 800;
+    margin-left: 10px;
+
+}
+
+
+.img5{
+    background-image: url("roll.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width:150px;
+    height: 150px;
+    border: 1.5px solid black;
+    margin-bottom: 0;
+}
+.img5:hover{
+    animation: anim3 2.5s ease-in 1s 1  normal ;
+}
+
+@keyframes anim3{
+    from{
+       transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+        
+    }
+}
+
+.f2 {
+    text-transform: capitalize;
+    font-size:17px;
+    font-weight: 800;
+    margin-left: 10px;
+
+}
+
+footer{
+    background-color: grey;
+}
+
+.foot{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    height: 27px;
+    padding: 10px;
+}
