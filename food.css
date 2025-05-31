@@ -47,7 +47,7 @@ main{
     
 }
 .img2:hover{
-    animation: anim 2.5s ease-in 1s 1  normal ;
+    animation: anim 2.2s ease-in 1s 1  normal ;
 }
 
 @keyframes anim{
